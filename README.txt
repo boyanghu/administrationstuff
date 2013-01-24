@@ -69,7 +69,11 @@ User Stories
 				- program should redirect to facebook site to sign in and then redirect back
 
 	- As a programer, I want to be able to patch any new information at will to insure the best possible user experiance.
-		- 
+		- create administrator previlages
+		- Test:
+			- try to edit the software with a normal account
+			- test editting with administrator account
+ 
 
 
 
