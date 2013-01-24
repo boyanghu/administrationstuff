@@ -21,7 +21,8 @@ What the system must do
 Existing systems
 	- http://water.tylorsherman.com/
 	- http://vancouver.ca/files/cov/map-cycling-vancouver.pdf
-	
+		- our project will be a combination of the two that links both together
+
 StakeHolders
 	- us the programers
 	- the bikers
@@ -56,7 +57,23 @@ User Stories
 		- Tests:
 			- test standard case (within Vancouver)
 			- test false case (outside Vancouver)
-
-		- 
+ 
 	- As a Facebook user I would like to share, like, and comment on my experiances at certain Vancouver waterfountains
-	- As a programer, I want to be able to patch any new information at will to insure the best possible user experiance.  
+		- when a POI(this time a water fountain) is clicked a facebook "like" button is visible 
+		 	- Also a comment box is avaliable 
+		- Test:
+			- Test with a psudo-profile 
+			- Test when signed in
+				- should go smoothly
+			- Test when signed out 
+				- program should redirect to facebook site to sign in and then redirect back
+
+	- As a programer, I want to be able to patch any new information at will to insure the best possible user experiance.
+		- 
+
+
+
+
+
+
+  
