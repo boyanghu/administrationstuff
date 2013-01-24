@@ -29,12 +29,10 @@ StakeHolders
  	- commuters in general
 
 User Stories
-	- As a biker I want to know where the nearest water fountain is to
-	  my everyday bike route to get water
+	- As a biker I want to know where the nearest water fountain is to my everyday bike route to get water
 	 	- parse and display geographical information on a map
 			- toggle display information
-		- click on bike lane and the nearest water fountain location (<5km) is
-		  highlighted 
+		- click on bike lane and the nearest water fountain location (<5km) is highlighted 
 			- an opinion to display nearest route to water fountain is visible
 		- search history is persisted on google account and can be accessed later
 		- Test:
@@ -42,12 +40,23 @@ User Stories
 			- works within 5 km 
 			- shows warning when no locations are within 5km
 
-	- As a citizen I want to find the nearest water fountain to any
-	  location to get water
+	- As a citizen I want to find the nearest water fountain to any location to get water
 		- input any location in Vancouver
 		- shows the nearest water fountain	
 		- plots route to water fountain from input location
+		- Tests:
+			- test standard case (within Vancouver)
+			- test false case (outside Vancouver)
+
+
 	- As a citizen I want to find the nearest bike route to bike on
-	- As a Facebook user I would like to share, like, and comment on my
-	  experiances at certain Vancouver waterfountains
-	- As a programer, I want to be able to patch any new information at will	  to insure the best possible user experiance.  
+		- input any location in Vancouver
+		- shows the nearest bike route	
+		- plots route to bike route from input location
+		- Tests:
+			- test standard case (within Vancouver)
+			- test false case (outside Vancouver)
+
+		- 
+	- As a Facebook user I would like to share, like, and comment on my experiances at certain Vancouver waterfountains
+	- As a programer, I want to be able to patch any new information at will to insure the best possible user experiance.  
